@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/output.css">
+    <title>Calculator</title>
+    <link type="image/png" sizes="16x16" rel="icon" href="images/calculator.png">
+
+</head>
+<body class="body">
+    <div>
+        <nav class="nav">
+            <div class="container flex items-center justify-between h-16 md:h-20">
+                <h1 class="relative z-30 font-semibold text-2xl">
+                    Calculator    
+                </h1>
+                <div class="flex items-center flex-row-reverse md:flex-row gap-3 md:gap-12">
+                    <submit id="toggle-theme" clas="relative z-30 dark:invert">
+                        <img src="./images/icon-dark.svg" alt=" theme" class="md:opacity-70 w-7 md:-mt-1 ">
+                    </submit>
+                </div>
+            </div>
+          </nav>
+    <div class="grid place-items-center">
+    <div class="grid grid-cols-1 calculator">
+        <div class="screen" >
+            <p id="display" class="text-center"></p>
+        </div>
+        <div class="grid grid-cols-4">
+            <div><button>1</button></div>
+            <div><button>2</button></div>
+            <div><button>3</button></div>
+            <div><button>C</button></div>
+            <div><button>4</button></div>
+            <div><button>5</button></div>
+            <div><button>6</button></div>
+            <div><button>+</button></div>
+            <div><button>7</button></div>
+            <div><button>8</button></div>
+            <div><button>9</button></div>
+            <div><button>-</button></div>
+            <div><button>.</button></div>
+            <div><button>0</button></div>
+            <div><button>*</button></div>
+            <div><button>/</button></div>
+            <div class="col-span-4 "><button class="w-80 h-10">=</button></div>
+        </div>
+    </div>
+</div>
+</div>
+<script src="./main.js"></script>
+</body>
+</html>
