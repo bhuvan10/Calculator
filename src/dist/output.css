@@ -646,7 +646,6 @@ body{
 .calculator {
   position: absolute;
   top: 10rem;
-  left: auto;
   border-radius: 0.25rem;
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
